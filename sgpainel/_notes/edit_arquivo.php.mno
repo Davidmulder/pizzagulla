@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_clientes" value="name:id;datatype:string,name:nome;datatype:string" />
+	<infoitem key="UD_arquivo" value="name:id;datatype:int,name:id_cliente;datatype:int,name:nome;datatype:string,name:texto;datatype:blob,name:arquivo;datatype:string,name:data;datatype:datetime" />
+	<infoitem key="UD_editarquivo" value="name:id;datatype:int,name:id_cliente;datatype:int,name:id_area;datatype:int,name:nome;datatype:string,name:foto;datatype:string,name:texto;datatype:blob,name:arquivo;datatype:string,name:arquivo2;datatype:string,name:produto;datatype:string,name:midia;datatype:string,name:diretor;datatype:string,name:criacao;datatype:string,name:planejamento;datatype:string,name:midia2;datatype:string,name:produtora;datatype:string,name:locucao;datatype:string,name:data;datatype:datetime" />
+</info>

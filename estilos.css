@@ -1,0 +1,175 @@
+@charset "utf-8";
+* { margin:0; padding:0; }
+.fd {
+	background-image: url(fatias/pg_img_fd.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.fd_alpha{
+	background-image:url(fatias/pg_img_alpha.png);
+}
+.fd_logo{
+	background-image:url(fatias/pg_img_fd_logo.png);
+	background-repeat:no-repeat;		
+}
+.fd_mn{
+	background-image:url(fatias/pg_img_fd_mn.png);
+	background-repeat:no-repeat;
+}
+.fd_enq{
+	background-image:url(fatias/pg_img_fd_enq.jpg);
+	background-repeat:no-repeat;
+}
+.fd_sbv{
+	background-image:url(fatias/pg_img_fd_sbv.png);
+	background-repeat:no-repeat;
+}
+.fd_card{
+	background-image:url(fatias/pg_img_fd_cardapio.png);
+	background-repeat:no-repeat;
+}
+.fd_email{
+	background-image:url(fatias/pg_img_fd_email.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.fd_pn{
+	background-image:url(fatias/pg_img_fd_painel.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.fd_cx{
+	background-image:url(fatias/pg_img_fd_cx_email.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.fd_tit{
+	background-image:url(fatias/pg_fd_tit.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.ft_pt_11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+.ft_pt_13 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000;
+}
+.ft_pt_18 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+.ft_br_12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+}
+.ft_vm_11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #990000;
+}
+.ft_vm_13 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #990000;
+}
+.ft_pt_18 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #990000;
+}
+#esp{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#FFF;
+}
+#esp2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 5px;
+	color:#FFF;
+}
+.bd_ft {-webkit-border-radius: 8px;border-radius: 8px; -moz-border-radius: 8px;}
+.bd_ft2 {-webkit-border-radius: 8px;border-radius: 8px; -moz-border-radius: 8px;
+margin-right: 5px;
+}
+.bd_card {-webkit-border-radius: 8px;border-radius: 8px; -moz-border-radius: 8px;
+background-color: #E3D0A8;
+}
+.cx_form {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #9f7c33;
+	width: 200px;
+	height: 20px;
+	background: #e3d0a8;
+	border-top-width: none;
+	border-right-width: none;
+	border-bottom-width: none;
+	border-left-width: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.cx_cont{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #9f7c33;
+	background: #e3d0a8;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style:  solid;
+	border-top-color: #d0af6c;
+	border-right-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-left-color:  #d0af6c;
+}
+a#vt:link, a#vt:visited { background:url(fatias/pg_bt_votar.png) no-repeat top left; display:block; width:184px; height:38px; text-decoration: none; text-align:center; outline:none;}
+a#vt:hover, a#vt:active, a#vt:focus{ background:url(fatias/pg_bt_votar.png) no-repeat bottom left; display:block; width:184px; height:38px; text-decoration: none; text-align:center; outline:none;}
+
+a#cd:link, a#cd:visited { background:url(fatias/pg_bt_cardapio.png) no-repeat bottom left; display:block; width:154px; height:29px; text-decoration: none; text-align:center; outline:none;}
+a#cd:hover, a#cd:active, a#cd:focus{ background:url(fatias/pg_bt_cardapio.png) no-repeat top left; display:block; width:154px; height:29px; text-decoration: none; text-align:center; outline:none;}
+
+a#bh:link, a#bh:visited { background:url(fatias/pg_bt_home.png) no-repeat bottom left; display:block; width:89px; height:45px; text-decoration: none; text-align:center; outline:none;}
+a#bh:hover, a#bh:active, a#bh:focus{ background:url(fatias/pg_bt_home.png) no-repeat top left; display:block; width:89px; height:45px; text-decoration: none; text-align:center; outline:none;}
+
+a#bg:link, a#bg:visited { background:url(fatias/pg_bt_gulla.png) no-repeat bottom left; display:block; width:101px; height:45px; text-decoration: none; text-align:center; outline:none;}
+a#bg:hover, a#bg:active, a#bg:focus{ background:url(fatias/pg_bt_gulla.png) no-repeat top left; display:block; width:101px; height:45px; text-decoration: none; text-align:center; outline:none;}
+
+a#bca:link, a#bca:visited { background:url(fatias/pg_bt_card.png) no-repeat bottom left; display:block; width:117px; height:45px; text-decoration: none; text-align:center; outline:none;}
+a#bca:hover, a#bca:active, a#bca:focus{ background:url(fatias/pg_bt_card.png) no-repeat top left; display:block; width:117px; height:45px; text-decoration: none; text-align:center; outline:none;}
+
+a#bco:link, a#bco:visited { background:url(fatias/pg_bt_contatos.png) no-repeat bottom left; display:block; width:117px; height:45px; text-decoration: none; text-align:center; outline:none;}
+a#bco:hover, a#bco:active, a#bco:focus{ background:url(fatias/pg_bt_contatos.png) no-repeat top left; display:block; width:117px; height:45px; text-decoration: none; text-align:center; outline:none;}
+
+a#ms:link, a#ms:visited { font-family:Arial, Helvetica, sans-serif; color:#fff; text-decoration: none; outline:none; font-size:12px;}
+a#ms:hover, a#ms:active, a#mn:focus{ font-family:Arial, Helvetica, sans-serif; color:#ffcc00; text-decoration:none; font-size:12px;}
+
+a#txt:link, a#txt:visited { font-family:Arial, Helvetica, sans-serif; color:#000; text-decoration: none; outline:none; font-size:13px;}
+a#txt:hover, a#txt:active, a#txt:focus{ font-family:Arial, Helvetica, sans-serif; color:#990000; text-decoration:none; font-size:13px;}
+
+a#mh:link, a#mh:visited { background:url(fatias/pg_mn_home.png) no-repeat bottom left; display:block; width:104px; height:33px; text-decoration: none; text-align:center; outline:none;}
+a#mh:hover, a#mh:active, a#mh:focus{ background:url(fatias/pg_mn_home.png) no-repeat top left; display:block; width:104px; height:33px; text-decoration: none; text-align:center; outline:none;}
+
+a#mg:link, a#mg:visited { background:url(fatias/pg_mn_agulla.png) no-repeat bottom left; display:block; width:104px; height:33px; text-decoration: none; text-align:center; outline:none;}
+a#mg:hover, a#mg:active, a#mg:focus{ background:url(fatias/pg_mn_agulla.png) no-repeat top left; display:block; width:104px; height:33px; text-decoration: none; text-align:center; outline:none;}
+
+a#mc:link, a#mc:visited { background:url(fatias/pg_mn_cardapio.png) no-repeat bottom left; display:block; width:104px; height:33px; text-decoration: none; text-align:center; outline:none;}
+a#mc:hover, a#mc:active, a#mc:focus{ background:url(fatias/pg_mn_cardapio.png) no-repeat top left; display:block; width:104px; height:33px; text-decoration: none; text-align:center; outline:none;}
+
+a#mco:link, a#mco:visited { background:url(fatias/pg_mn_contatos.png) no-repeat bottom left; display:block; width:104px; height:33px; text-decoration: none; text-align:center; outline:none;}
+a#mco:hover, a#mco:active, a#mco:focus{ background:url(fatias/pg_mn_contatos.png) no-repeat top left; display:block; width:104px; height:33px; text-decoration: none; text-align:center; outline:none;}
+
+
+
+

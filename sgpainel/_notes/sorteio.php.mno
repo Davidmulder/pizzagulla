@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sorteio" value="name:id;datatype:int,name:id_quest;datatype:int,name:opcao;datatype:string,name:n;datatype:int" />
+	<infoitem key="UD_ossortiados" value="name:id;datatype:string,name:nome;datatype:string,name:email;datatype:string" />
+</info>
