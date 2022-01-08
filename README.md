@@ -26,7 +26,7 @@ Delivery de pedido de pizza no estado do Pará</p>
 
 ## Tecnologia usada
 
-Usado do modelo de framework WordPress, no servidor linux da libnet
+Usado do modelo de framework , no servidor linux
 
 - ⚛️ **Javascript** — colocar o player do wnoza
 - ⚛️ **PHP** — PHP para servidor linux
